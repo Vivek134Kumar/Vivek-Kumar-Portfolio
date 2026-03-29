@@ -91,7 +91,7 @@ export default function About() {
                           { role: "Data Analyst Intern", company: "IIT Guwahati & Coding Ninjas", date: "June – Dec 2025", desc: "Analyzed datasets using SQL/Power BI, generated forecasting insights." },
                           { role: "Content Writer", company: "YUVA Intern", date: "Sept – Oct 2025", desc: "Authored structured articles improving engagement and readability." },
                           { role: "SAP FICO", company: "YUVA Intern", date: "Sept – Oct 2025", desc: "Learned SAP FICO"},
-                          { role: "Product Managment Intern", company: "E-Cell, IIT Guwahati", date: "June – July 2025", desc: "Conducted market analysis using SQL/APIs for go-to-market strategy." },
+                          { role: "Product Management Intern", company: "E-Cell, IIT Guwahati", date: "June – July 2025", desc: "Conducted market analysis using SQL/APIs for go-to-market strategy." },
                           { role: "Frontend Developer Intern", company: "Cognifyz Technologies", date: "May – June 2025", desc: "Developed responsive interfaces improving UI consistency." }
                       ].map((job, i) => (
                           <div key={i} className="relative group">
