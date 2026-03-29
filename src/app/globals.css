@@ -1,0 +1,80 @@
+@import "tailwindcss";
+
+@theme {
+  --font-sans: var(--font-inter);
+  --font-mono: var(--font-jetbrains-mono);
+
+  --color-mission-bg: #0B0C10;
+  --color-mission-accent: #66FCF1;
+  --color-mission-accent-dim: #45A29E;
+  --color-mission-text: #C5C6C7;
+  --color-mission-dark: #1F2833;
+}
+
+:root {
+  --background: var(--color-mission-bg);
+  --foreground: var(--color-mission-text);
+}
+
+
+
+body {
+  /* Base Background Color: Deep Space */
+  background-color: #0b0d17;
+  
+  /* Radial Gradient Overlay: Top-Center Blue Glow */
+  background-image: radial-gradient(circle at 50% 0%, #1a1f3b 0%, transparent 60%);
+  background-attachment: fixed;
+  
+  color: var(--foreground);
+  font-family: var(--font-sans);
+  position: relative;
+  overflow-x: hidden;
+}
+
+/* Base Layer: Static Image Fallback */
+body::before {
+  content: "";
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  pointer-events: none;
+  z-index: -20;
+  
+  background-image: url('/binary-bg.png');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  
+  opacity: 0.15; /* Subtle static background */
+}
+
+/* Layer 2: Removed previous star/code layers to let Canvas shine */
+body::after {
+  display: none;
+}
+
+/* Custom Utilities */
+@utility glow-text {
+  text-shadow: 0 0 10px var(--color-mission-accent);
+}
+
+@utility glow-box {
+  box-shadow: 0 0 20px rgba(102, 252, 241, 0.15);
+}
+
+@utility glass-panel {
+  @apply backdrop-blur-xl bg-mission-dark/30 border border-white/10 shadow-lg;
+}
+
+.terminal-cursor::after {
+  content: '_';
+  animation: blink 1s step-end infinite;
+}
+
+@keyframes blink {
+  0%, 100% { opacity: 1; }
+  50% { opacity: 0; }
+}
