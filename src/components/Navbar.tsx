@@ -20,7 +20,7 @@ export default function Navbar() {
         <Link href="/" className="flex items-center gap-2 group">
           <Terminal className="text-mission-accent w-6 h-6 group-hover:glow-text transition-all" />
           <span className="font-mono text-xl font-bold tracking-tighter text-white group-hover:text-mission-accent transition-colors">
-            Vivek<span className="text-mission-accent">-</span>Kumar
+            Vivek<span className="text-mission-accent"> - </span>Kumar
           </span>
         </Link>
         <div className="hidden md:flex gap-8 font-mono text-sm text-mission-text">
