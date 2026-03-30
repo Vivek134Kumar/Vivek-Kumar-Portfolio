@@ -7,7 +7,7 @@ export const projects = [
     tech: ["Python", "Cryptography", "Security", "HIBP API"],
     icon: Lock,
     status: "Active",
-    githubUrl: "#",
+    githubUrl: "https://github.com/Vivek134Kumar/Sentinal-Password-Strength-Checker.git",
   },
   {
     title: "Personal Productivity Suite",
