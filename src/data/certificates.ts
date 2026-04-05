@@ -18,6 +18,14 @@ export const certificates = [
     href: "https://drive.google.com/file/d/1wZhei49BcbUOHUpqaDzn9wugitrTUko8/view?usp=drive_link",
   },
   {
+    title: "Power BI",
+    issuer: "Coding Ninjas",
+    date: "February 2026",
+    description: "Hands-on training in Power BI covering data modeling, DAX, interactive dashboards, data cleaning, and business intelligence reporting.",
+    icon: Award,
+    href: "https://drive.google.com/file/d/1oQWFM4L0H-pAYKz2uyRPVsSC4fy0bgXw/view?usp=drive_link",
+  },
+  {
     title: "Advance Excel",
     issuer: "Coding Ninjas",
     date: "August 2025",
