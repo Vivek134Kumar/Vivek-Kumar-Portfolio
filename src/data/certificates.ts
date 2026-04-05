@@ -7,7 +7,7 @@ export const certificates = [
     date: "March 2026",
     description: "Covers core Python concepts including data structures, functions, OOP, and problem solving.",
     icon: Award,
-    href: "https://drive.google.com/file/d/1xFHVLVw1LtyitxnSTttMUlnRFNZNqZpO/view?usp=drive_link",
+    href: "https://drive.google.com/file/d/1kBQi-BAPxb_PaR0lB6CXbKYlX4kT6waj/view?usp=drive_link",
   },
   {
     title: "SQL Certification",
@@ -15,7 +15,7 @@ export const certificates = [
     date: "March 2026",
     description: "Covers relational databases, queries, joins, normalization, and real-world data handling.",
     icon: Award,
-    href: "https://drive.google.com/file/d/1hNsjpmMCL-5ztyT0RC6foGi5dejrD0t6/view?usp=drive_link",
+    href: "https://drive.google.com/file/d/1wZhei49BcbUOHUpqaDzn9wugitrTUko8/view?usp=drive_link",
   },
   {
     title: "Advance Excel",
