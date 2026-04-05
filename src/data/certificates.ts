@@ -2,6 +2,14 @@ import { Award } from "lucide-react";
 
 export const certificates = [
   {
+    title: "Generative AI",
+    issuer: "Coding Ninjas",
+    date: "April 2026",
+    description: "Hands-on training in Generative AI for data analytics, covering prompt engineering, AI-driven data processing, and real-world analytics workflows.",
+    icon: Award,
+    href: "https://drive.google.com/file/d/1wxzE3nIXtUKIz5MEQHopFT_VSEnzzMpO/view?usp=drive_link",
+  },
+  {
     title: "Python Programming Certificate",
     issuer: "Coding Ninjas",
     date: "March 2026",
